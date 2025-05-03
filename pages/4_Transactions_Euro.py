@@ -61,7 +61,7 @@ if selected_ticker == 'All Ticker':
 
     # For Series (1D), convert to DataFrame for styling
     profit_total_df = pd.DataFrame(profit_total).T
-    st.dataframe(color_rows(profit_total_df))
+    st.dataframe(profit_total_df)
 
 st.subheader("Daily Profit")
 daily_status(df)
