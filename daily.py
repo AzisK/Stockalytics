@@ -6,8 +6,6 @@ import streamlit as st
 
 from sold import get_sold_stats_with_date
 
-cache = Cache()
-
 
 def daily_status(df):
     # Get date range from min transaction date to today
